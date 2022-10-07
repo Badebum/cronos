@@ -11,10 +11,12 @@ document.addEventListener("DOMContentLoaded", () => {
     breakpoints: {
       480: {
         slidesPerView: 2,
+        loop: true,
 
       },
       768: {
         slidesPerView: 3,
+        loop: true,
       },
       1025: {
         slidesPerView: 3,
